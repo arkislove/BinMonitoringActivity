@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "119893317180",
+    "firebase_url": "https://binmonitoringactivity-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "binmonitoringactivity",
+    "storage_bucket": "binmonitoringactivity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119893317180:android:115bed1b57cae3ac511539",
+        "android_client_info": {
+          "package_name": "com.arkislove.binmonitoringactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119893317180-q8cg60dumifj0ij31d91jpqantkgtdpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB533HilWaWFZ-MxtTD71YkVjnCjTKvz3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119893317180-q8cg60dumifj0ij31d91jpqantkgtdpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119893317180:android:961e9cb46336bdcd511539",
+        "android_client_info": {
+          "package_name": "com.example.godbless"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119893317180-q8cg60dumifj0ij31d91jpqantkgtdpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB533HilWaWFZ-MxtTD71YkVjnCjTKvz3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119893317180-q8cg60dumifj0ij31d91jpqantkgtdpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

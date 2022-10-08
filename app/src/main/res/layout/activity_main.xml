@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/binProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="196dp"
+        android:layout_height="183dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="144dp"
+        android:rotation="270"
+        android:scaleY="45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bin"
+        android:layout_width="196dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bin" />
+
+    <TextView
+        android:id="@+id/fillLevelValue"
+        android:layout_width="101dp"
+        android:layout_height="36dp"
+        android:text="0"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/binStatusValue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toEndOf="@+id/fillLevel"
+        app:layout_constraintTop_toBottomOf="@+id/binNumberValue"
+        app:layout_constraintVertical_bias="0.455" />
+
+    <TextView
+        android:id="@+id/binNumberValue"
+        android:layout_width="101dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="binNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toEndOf="@+id/binNumber"
+        app:layout_constraintTop_toBottomOf="@+id/bin" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/binStatusValue"
+        android:layout_width="101dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="180dp"
+        android:text="binStatus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toEndOf="@+id/binStatus" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/binStatus"
+        android:layout_width="101dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="180dp"
+        android:text="Status"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/fillLevel"
+        android:layout_width="101dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="72dp"
+        android:text="Fill Level"
+        app:layout_constraintBottom_toTopOf="@+id/binStatus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/binNumber"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <TextView
+        android:id="@+id/binLevel"
+        android:layout_width="83dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="48dp"
+        android:text="binLevel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toEndOf="@+id/bin"
+        app:layout_constraintTop_toTopOf="@+id/bin" />
+
+    <TextView
+        android:id="@+id/binNumber"
+        android:layout_width="101dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Bin Number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bin" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
